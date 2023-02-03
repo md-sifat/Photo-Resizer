@@ -30,7 +30,7 @@
 
 .upload{
     width: 90%;
-    height: 45vh;
+    height: 45%;
     border: 2px dashed black;
     border-radius: 10px;
     margin: 10px;
@@ -48,12 +48,19 @@
     cursor: pointer;
     position: relative;
 }
-.icon img{
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
 
+.active .icon img{
+    width: 100%;
+    height: 35vh;
+    object-fit: cover;
 }
+.active .icon-text{
+    display: none;
+}
+.active{
+    border: none;
+}
+
 /* designing the editing section */
 
 .edit{
