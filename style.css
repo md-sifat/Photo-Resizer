@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
 *{
     margin: 0px 0px;
     padding: 0px 0px;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 .main{
@@ -45,10 +47,56 @@
 .icon{
     cursor: pointer;
 }
+
+/* designing the editing section */
+
 .edit{
     width: 90%;
     height: 45%;
     border: 2px solid black;
     border-radius: 10px;
     margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec{
+    width: 100%;
+    height: 30%;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.sec1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.input1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.input2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.sec1 input{
+    padding: 10px;
+    margin: 2px;
+    width: 80%;
+}
+
+.sec2{
+    
+}
+
+.sec3{
+    
 }
