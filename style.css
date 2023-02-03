@@ -16,7 +16,7 @@
 }
 
 .main .main-box{
-    width: 50%;
+    width: 35%;
     height: 80%;
     border: 2px solid transparent;
     border-radius: 10px;
@@ -53,7 +53,7 @@
 .edit{
     width: 90%;
     height: 45%;
-    border: 2px solid black;
+    border: 2px solid transparent;
     border-radius: 10px;
     margin: 10px;
     display: flex;
@@ -68,13 +68,14 @@
     font-size: 1.3rem;
     font-weight: 500;
     margin: 10px;
-    border: 2px solid black;
+    border: 2px solid transparent;
 }
 
 .sec1{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    /* padding: 20px; */
     
 }
 .input1{
@@ -86,6 +87,7 @@
     display: flex;
     flex-direction: column;
     width: 50%;
+    border: 2px solid transparent;
 }
 .sec1 input{
     padding: 10px;
@@ -94,9 +96,34 @@
 }
 
 .sec2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.2rem;
     
 }
 
+.sec2 .ratio{
+    margin-right: 75px;
+}
+
+
+
 .sec3{
-    
+    width: 100%;
+    margin: auto auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.sec3 .btn{
+    width: 100%;
+    height: 100%;
+    font-size: 1.3rem;
+    background-color: rgb(59, 151, 190);
+    border: 2px solid transparent;
+    border-radius: 5px;
+    color: aliceblue;
+    cursor: pointer;
 }
