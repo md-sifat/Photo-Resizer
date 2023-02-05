@@ -50,7 +50,7 @@ const Download = () => {
 }
 
 
-downloadBtn.addEventListener("click" , Download)
+downloadBtn.addEventListener("click" , Download);
 
 
 inputBox.addEventListener("change" , loadFile); 
